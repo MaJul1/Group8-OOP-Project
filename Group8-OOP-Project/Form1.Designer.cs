@@ -43,7 +43,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(403, 12);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(385, 426);
+            this.dataGridView1.Size = new System.Drawing.Size(370, 357);
             this.dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -64,7 +64,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(47, 123);
+            this.textBox2.Location = new System.Drawing.Point(47, 139);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(293, 20);
             this.textBox2.TabIndex = 4;
@@ -72,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 107);
+            this.label2.Location = new System.Drawing.Point(44, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(47, 174);
+            this.textBox3.Location = new System.Drawing.Point(47, 210);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(293, 20);
             this.textBox3.TabIndex = 6;
@@ -88,7 +88,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 158);
+            this.label3.Location = new System.Drawing.Point(44, 194);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(785, 381);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
