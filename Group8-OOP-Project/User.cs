@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Group8_OOP_Project
 {
-    internal class User
+    public class User
     {
-        internal int Id { get; set; }
-        internal string Name { get; set; }
-        internal int Age { get; set; }
-        internal string Address { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Address { get; set; }
     }
 }

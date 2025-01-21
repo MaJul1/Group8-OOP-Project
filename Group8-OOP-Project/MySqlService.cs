@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
 namespace Group8_OOP_Project
@@ -125,7 +126,7 @@ namespace Group8_OOP_Project
             }
         }
 
-        private string GetConnectionString()
+        public string GetConnectionString()
         {
             return connectionString;
         }
@@ -133,8 +134,9 @@ namespace Group8_OOP_Project
         internal static bool TestConnection()
         {
             var MySqlService = new MySqlService();
+            var connectionString = MySqlService.GetConnectionString();
 
-            using (MySqlConnection connection = new MySqlConnection(MySqlService.GetConnectionString()))
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 try
                 {
@@ -143,6 +145,7 @@ namespace Group8_OOP_Project
                 }
                 catch (Exception)
                 {
+                    MessageBox.Show($"Unable to connect to database \n ConnectionString: {connectionString}");
                     return false;
                 }
             }
