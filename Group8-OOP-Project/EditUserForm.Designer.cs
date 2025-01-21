@@ -100,9 +100,9 @@
             // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(359, 335);
+            this.saveButton.Location = new System.Drawing.Point(282, 331);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(75, 23);
+            this.saveButton.Size = new System.Drawing.Size(86, 30);
             this.saveButton.TabIndex = 3;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
@@ -119,7 +119,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(262, 335);
+            this.deleteButton.Location = new System.Drawing.Point(374, 335);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 4;
