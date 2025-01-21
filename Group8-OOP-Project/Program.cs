@@ -14,9 +14,15 @@ namespace Group8_OOP_Project
         [STAThread]
         static void Main()
         {
+            if (!MySqlService.TestConnection())
+            {
+                MessageBox.Show("Failed to connect to database. \n 'server=localhost;port=3306;user=root;database=oop_project;pwd=password'");
+                return;
+            }
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Dashboard());
         }
     }
 }

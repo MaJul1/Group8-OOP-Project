@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Group8_OOP_Project
 {
-    public partial class Form1 : Form
+    public partial class AddForm : Form
     {
-        public Form1()
+        public AddForm()
         {
             InitializeComponent();
+        }
+
+        private async void saveButton_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
