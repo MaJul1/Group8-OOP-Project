@@ -71,5 +71,10 @@ namespace Group8_OOP_Project
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
